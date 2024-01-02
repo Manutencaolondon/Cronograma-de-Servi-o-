@@ -1,0 +1,146 @@
+* {box-sizing:border-box;
+}
+ body {
+     width: 800px;
+     margin: auto;
+ } 
+.container{
+     zoom:3;
+     border:solid 2px black ;
+     width: 100%;
+     height: 800px;
+     padding: 10px;
+     margin: 15px;
+ }
+ button {
+     margin: 8px;
+ }
+
+img{
+    width: 50px;
+}
+h1{text-align: center;
+font-size:large;
+
+margin: 0;}
+h3{ text-align: center;
+font-size:small;
+margin: 0;}
+hr{
+ border-color: #980d0d;
+}
+input{
+width: 90%;
+margin-left: 2px ;
+height: 37px;
+font-size:large;
+border-radius: 5px;
+}
+h4{
+    margin: 0;
+}
+
+select{
+ width: 90%;
+    height: 40px;
+    font-size:large;
+    margin-left: 4px ;
+    border-radius: 5px;
+    
+}
+textarea{
+    width: 96%;
+    margin-left:4px;
+    font-size:large;
+    
+}
+#preview-container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .preview-image {
+            max-width: 100px;
+            max-height: 100px;
+            margin: 5px;
+        }
+        
+
+
+
+#canvas {
+    border: 1px solid #000;
+    touch-action: none;
+}
+
+    #clearButton {
+      margin-top: 10px;
+      padding: 5px 10px;
+      
+      justify-content: center ;
+    }
+
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.menu-container {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.menu {
+  width: 200px;
+  background-color: #333;
+  color: white;
+  overflow-y: auto;
+  transition: width 0.3s ease;
+}
+
+.menu.collapsed {
+  width: 50px; /* Largura mínima quando recolhido */
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  padding: 10px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+#toggleMenu {
+  font-size: 1.5em;
+  cursor: pointer;
+  border: none;
+  background-color: #333;
+  color: white;
+}
+.relogio{
+    display: flex ;
+    display:none;
+}
+button {
+width: 90%;
+margin-left: 2px ;
+height: 37px;
+font-size:large;
+border-radius: 5px;
+    
+}
