@@ -33,7 +33,7 @@ input{
 width: 90%;
 margin-left: 2px ;
 height: 37px;
-font-size:large;
+font-size:9px;
 border-radius: 5px;
 }
 h4{
@@ -51,7 +51,7 @@ select{
 textarea{
     width: 96%;
     margin-left:4px;
- font-size:12px;
+ font-size:9px;
 
     
 }
