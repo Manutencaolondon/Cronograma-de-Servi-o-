@@ -1,16 +1,21 @@
-* {box-sizing:border-box;
+*{
+    margin: 0;
+    padding: 0;
 }
+
  body {
      width: 800px;
-     margin: auto;
+     height: 100vh;
+     margin:1px auto;
+     padding: 2px;
  } 
 .container{
      zoom:3;
      
      width: 100%;
-     height: 800px;
-     padding: 10px;
-     margin: 15px;
+     height: 900px;
+     padding: 0px;
+     
  }
  button {
      margin: 8px;
@@ -49,99 +54,46 @@ select{
     
 }
 textarea{
-    width: 96%;
+    width: 200px;
     margin-left:4px;
- font-size:9px;
-
+    font-size:12px;
     
 }
-#preview-container {
-            display: flex;
-            flex-wrap: wrap;
-        }
 
-        .preview-image {
-            max-width: 100px;
-            max-height: 100px;
-            margin: 5px;
-        }
         
-
-
-
-#canvas {
-    border: 1px solid #000;
-    touch-action: none;
-}
-
-    #clearButton {
-      margin-top: 10px;
-      padding: 5px 10px;
-      
-      justify-content: center ;
-    }
-
-
-
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-}
-
-.menu-container {
-  display: flex;
-  height: 100vh;
-  overflow: hidden;
-}
-
-.menu {
-  width: 200px;
-  background-color: #333;
-  color: white;
-  overflow-y: auto;
-  transition: width 0.3s ease;
-}
-
-.menu.collapsed {
-  width: 50px; /* Largura mínima quando recolhido */
-}
-
-.menu ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.menu li {
-  padding: 10px;
-}
-
-.menu a {
-  text-decoration: none;
-  color: white;
-}
-
-.content {
-  flex: 1;
-  padding: 20px;
-}
-
-#toggleMenu {
-  font-size: 1.5em;
-  cursor: pointer;
-  border: none;
-  background-color: #333;
-  color: white;
-}
-.relogio{
-    display: flex ;
-    display:none;
-}
 button {
 width: 90%;
 margin-left: 2px ;
 height: 37px;
 font-size:large;
 border-radius: 5px;
+    
+}
+.dash{
+    width:300px;
+}
+iframe{
+zoom :1.3;
+    margin: auto;
+    border-radius: 15px;
+    position: relative;
+}
+#ver{
+    margin: 5px;
+}
+footer{
+    position: absolute;
+    top: 200px;
+    text-align: center ;
+}
+p{
+    font-size:2px;
+    text-align: center ;
+    margin: 3px;
+}
+hr{
+    margin: 9px auto;
+    border-color:#105f11f9;
+    width: 250px;
     
 }
