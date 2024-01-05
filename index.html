@@ -2,7 +2,7 @@
 <html lang="pt">
 <head>
     <meta charset="UTF-8">
-    <title>Cronograma de Serviço </title>
+    <title>Título da página</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/signature_pad/1.5.3/signature_pad.min.js"></script>
   
     <link rel="stylesheet" href="style.css">
@@ -14,15 +14,17 @@
   <div id="content"> 
   
         
-    <img src="logo.png" alt="">
+    <img src="ft/logo.png" alt="">
     
-  <!-- Put HTML input fields in here and see how they fill up your sheet -->
-
+  <!-- Put HTML input fields in here and see how they fill up your sheet --><div class="tempo">
+ <label for="horaAtual"></label>
+    <input type="text" id="horaAtual" name="Hora" readonly></div>
     <hr>
        
     <h1>Cronograma de Serviço</h1>
+    
     <hr>
-   
+  
     <div>
         <h4 id="bloco">Bloco</h4><select  name="Bloco"multiple>
             <option value="#"></option>
@@ -53,7 +55,8 @@
             <option value="Aguardando">Aguardando Material</option>
             <option value="Finalizado">Finalizado</option>
 </select>
- <hr>
+ <hr><div class="protetor"></div>
+   
  <div>
     <h4> Data Abertura</h4><input id="Abertura"name="Data Abertura" type="date"> 
     <hr>
@@ -75,8 +78,13 @@
    
     <hr>
   <p>R.M©<br><u>2024</u></p>
+
+
+    <script>
+        
+    </script>
 </body>
 
 
-     </html>
-                                  
+                </html>
+    
