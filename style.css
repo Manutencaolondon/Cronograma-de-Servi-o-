@@ -104,6 +104,21 @@ hr{
     
 }
 
+#horaAtual{
+    border:none;
+    background-color:#eaeaff;
+    text-aling: right ;margin: 0;padding: 0;
+    display:none;
+}
+label{
+    font-size:9px;
+    text-aling: right ;
+    
+    
+
+
+}
+
 }
 
 /* Tablets e dispositivos de tamanho médio */
@@ -211,6 +226,18 @@ hr{
     width: 250px;
     
 }
+#horaAtual{
+    border:none;
+    background-color:#eaeaff;
+    text-aling: right ;margin: 0;padding: 0;
+    display:none;
+}
+label{
+    font-size:9px;
+    text-aling: right ;
+    
+    
+
 
 }
 
@@ -320,6 +347,20 @@ hr{
     width: 250px;
     
 }
+#horaAtual{
+    border:none;
+    background-color:#eaeaff;
+    text-aling: right ;margin: 0;padding: 0;
+    display:none;
+}
+label{
+    font-size:9px;
+    text-aling: right ;
+    
+    
 
-  }
+
+}
+
+      }
   
