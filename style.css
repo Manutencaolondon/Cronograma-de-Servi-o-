@@ -37,24 +37,24 @@ hr{
 input{
 width: 90%;
 margin-left: 2px ;
-height: 37px;
+height: 25px;
 font-size:large;
 border-radius: 5px;
 }
 h4{
-    margin: 0;
+    font-size:13px;
 }
 
 select{
  width: 90%;
-    height: 40px;
-    font-size:large;
+    height: 27px;
+    font-size:14px;
     margin-left: 4px ;
     border-radius: 5px;
     
 }
 textarea{
-    width: 200px;
+    width: 250px;
     margin-left:4px;
     font-size:12px;
     
@@ -62,9 +62,9 @@ textarea{
 
         
 button {
-width: 90%;
-margin-left: 2px ;
-height: 37px;
+width: 65%;
+margin-left: 34px ;
+height: 25px;
 font-size:large;
 border-radius: 5px;
     
