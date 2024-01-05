@@ -69,7 +69,7 @@ textarea{
         
 button {
 width: 65%;
-margin-left: 34px ;
+margin-left: 34px;
 height: 25px;
 font-size:large;
 border-radius: 5px;
@@ -112,33 +112,32 @@ hr{
   
 *{
     margin: 0;
-    padding: 0;
+    padding: 0px;
 }
 
  body {
-     width: 800px;
+     
      height: 100vh;
-     margin:5px
-     padding: 2px;
+     padding-left: 10%;
+    margin: 0;
      background-color:#eaeaff;
  } 
 .container{
      zoom:3;
      
-     width: 100%;
+     
      height: 900px;
-     padding: 0px;
+     padding: 3px;
      
  }
- button {
-     margin: 8px;
- }
+ 
 
 img{
     width: 50px;
 }
 h1{
-font-size:large;
+font-size:17px;
+
 
 margin: 0;}
 h3{ text-align: center;
@@ -149,9 +148,9 @@ hr{
 }
 input{
 width: 45%;
-margin-left: 2px ;
+margin-left: 10% ;
 height: 15px;
-font-size:large;
+font-size:10px;
 border-radius: 5px;
 }
 h4{
@@ -161,31 +160,29 @@ h4{
 select{
  width: 45%;
     height: 17px;
-    font-size:14px;
-    margin-left: 4px ;
+    font-size:10px;
+    margin-left: 10% ;
     border-radius: 5px;
     
 }
 textarea{
     width: 180px;
     height: 35px;
-    margin-left:4px;
-    font-size:12px;
+    margin-left:10%;
+    font-size:10px;
     
 }
 
         
 button {
 width: 35%;
-margin-left: 34px ;
+margin-left: 30% ;
 height: 20px;
 font-size:15px;
 border-radius: 5px;
     
 }
-.dash{
-    width:300px;
-}
+
 iframe{
 zoom :1.3;
     margin: auto;
@@ -194,6 +191,7 @@ zoom :1.3;
 }
 #ver{
     margin: 5px;
+    margin-left:25%;
     height: 20px;
     font-size:15px;
 }
@@ -323,5 +321,5 @@ hr{
     
 }
 
-    }
-    
+  }
+  
