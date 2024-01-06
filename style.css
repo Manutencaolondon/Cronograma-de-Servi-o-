@@ -15,6 +15,21 @@
      margin:1px auto;
      padding: 2px;
  } 
+ header{
+    top:0;
+    width: 100%;
+    display: flex ;
+    justify-content: center ;
+    padding: 2%;
+    background-color:#0ea933;
+    margin: 0;
+    position :fixed;
+}
+ main{margin: 0 auto;
+  margin-top:250px;
+ 
+  width: 80%; /* Ajuste a largura conforme necessário */
+}
 .container{
      zoom:3;
      
@@ -130,17 +145,37 @@ label{
     padding: 0px;
 }
 
+header{
+    top:0;
+    width: 100%;
+    display: flex ;
+    justify-content: center ;
+    padding: 2%;
+    background-color:#0ea933;
+    margin: 0;
+    position :fixed;
+}
+
  body {
      
      height: 100vh;
-     padding-left: 10%;
+     
     margin: 0;
      background-color:#eaeaff;
  } 
+ form{
+     ;
+ }
+ main{margin: 0 auto;
+  margin-top:250px;
+ 
+  width: 80%; /* Ajuste a largura conforme necessário */
+}
+ 
+ 
+ 
 .container{
      zoom:3;
-     
-     
      height: 900px;
      padding: 3px;
      
@@ -148,19 +183,20 @@ label{
  
 
 img{
-    width: 50px;
+    width: 230px;
 }
 h1{
 font-size:17px;
-
-
 margin: 0;}
+
 h3{ text-align: center;
 font-size:small;
 margin: 0;}
+
 hr{
  border-color: #980d0d;
 }
+
 input{
 width: 45%;
 margin-left: 10% ;
@@ -199,7 +235,7 @@ border-radius: 5px;
 }
 
 iframe{
-zoom :1.3;
+    zoom :1.3;
     margin: auto;
     border-radius: 15px;
     position: relative;
@@ -256,6 +292,21 @@ label{
      margin:1px auto;
      padding: 2px;
  } 
+ header{
+    top:0;
+    width: 100%;
+    display: flex ;
+    justify-content: center ;
+    padding: 2%;
+    background-color:#0ea933;
+    margin: 0;
+    position :fixed;
+}
+ main{margin: 0 auto;
+  margin-top:250px;
+ 
+  width: 80%; /* Ajuste a largura conforme necessário */
+}
 .container{
      zoom:1;
      
@@ -339,7 +390,7 @@ footer{
 p{
     font-size:2px;
     text-align: center ;
-    margin: 3px;
+    margin-bottom: 8px;
 }
 hr{
     margin: 9px auto;
@@ -362,5 +413,5 @@ label{
 
 }
 
-      }
+   }
   
