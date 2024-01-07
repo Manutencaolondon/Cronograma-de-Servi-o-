@@ -1,3 +1,4 @@
+//Relógio que esta oculto
 document.addEventListener("DOMContentLoaded", function() {
             var inputHoraAtual = document.getElementById("horaAtual");
             
